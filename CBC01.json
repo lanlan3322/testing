@@ -1,0 +1,35 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "name": "ab84c649-e867-4979-9211-c19475e26186:string:CBC",
+      "type": "fad42a01-4a25-4c4e-99c4-6ab2028d2724:string:EMBEDDED_RENDERER",
+      "url": "b5d9002c-ca7a-42d5-8686-15230c6e2e9e:string:https://issuer.ibs.edu.sg"
+    },
+    "recipient": {
+      "name": "6040425b-8841-450f-ac9d-9710a6e4865d:string:CBC 01",
+      "cert_type": "471a25b7-9911-4dad-a39b-24fd3bc59b0e:string:CERTIFIED BLOCKCHAIN CONSULTANT™ (CBC)",
+      "date": "feab6bb5-4f74-495f-bd44-1eb9bc05f10d:string:05 Dec 2020",
+      "cert_name": "c8a53087-4e4d-4a08-89fe-5a2250d1ba52:string:CBC-01-20201205-01"
+    },
+    "issuers": [
+      {
+        "name": "e6eae57c-9e22-48f0-93b5-a3078197a03d:string:Institute of Blockchain®",
+        "url": "0abc9774-589d-4db7-95a6-e87c47ba74ff:string:ibs.edu.sg",
+        "documentStore": "4e2f0aa5-1f66-406d-9e49-67015e90f68a:string:0x48474B006747A4865257e0896e4bAd3D6A67A8Eb",
+        "identityProof": {
+          "type": "1fd03914-8253-44ec-bf8e-49cfa3b17fb6:string:DNS-TXT",
+          "location": "9dc8c138-be35-4795-bea0-f4fe98d470e4:string:ibs.edu.sg"
+        }
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "7b7a03651794cb1e648acf0a7a8d085111c7426a2cfb88832c0ca5f47d5e0b9e",
+    "proof": [
+      "155171b951060d4e34f4da9dbc1c6e9dcf7c46a6a129ef52dacec518542e6a36"
+    ],
+    "merkleRoot": "a500491b5ca1dd22c234f0099b6bac1fa210596ac1faa3df58e2347ce07be6eb"
+  }
+}

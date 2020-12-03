@@ -1,0 +1,35 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "name": "1a417c1a-0bce-474b-9b1c-46c79213f595:string:COC",
+      "type": "14c0e79a-78c5-4373-a155-8b818a3e0923:string:EMBEDDED_RENDERER",
+      "url": "5c2e5a29-e273-4e5d-bc80-2bd57fabaa07:string:https://issuer.ibs.edu.sg"
+    },
+    "recipient": {
+      "name": "92aedfb7-1947-4e43-84a9-3c3474f2bca2:string:COC 01",
+      "cert_type": "28e4245e-f3ea-4f6d-9a7d-5d392c30b8ca:string:CERTIFICATE OF COMPLETION",
+      "date": "db0433d9-3eba-4748-926f-07b45896c524:string:18 Oct 2020",
+      "cert_name": "9e9997da-0700-48f8-b8d8-21585579acc1:string:Certified Blockchain Consultant™ Course"
+    },
+    "issuers": [
+      {
+        "name": "dbf27db7-3099-43e0-879b-3a71b072935f:string:Institute of Blockchain®",
+        "url": "0d7a7cff-1b59-45f3-9ffc-d53090e710ca:string:ibs.edu.sg",
+        "documentStore": "287bb1f1-e765-4e73-9d06-16851748009c:string:0x48474B006747A4865257e0896e4bAd3D6A67A8Eb",
+        "identityProof": {
+          "type": "d20d13aa-49b2-4b6c-8f8f-a05290015aa3:string:DNS-TXT",
+          "location": "ed9667d9-d7f7-400b-a595-a3dc6dbd1ab3:string:ibs.edu.sg"
+        }
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "155171b951060d4e34f4da9dbc1c6e9dcf7c46a6a129ef52dacec518542e6a36",
+    "proof": [
+      "7b7a03651794cb1e648acf0a7a8d085111c7426a2cfb88832c0ca5f47d5e0b9e"
+    ],
+    "merkleRoot": "a500491b5ca1dd22c234f0099b6bac1fa210596ac1faa3df58e2347ce07be6eb"
+  }
+}
